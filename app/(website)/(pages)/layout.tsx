@@ -1,8 +1,8 @@
 // import { kanit } from "../../fonts";
 import Header from "@/components/modules/header";
 import "../../globals.css";
-import MobileButton from "@/components/custom/MobileButton";
 import Footer from "@/components/modules/footer";
+import MobileButtom from "@/components/custom/MobileButtom";
 
 export default function RootLayout({
   children,
@@ -10,9 +10,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
     return (
-        <>p
+        <>
             <Header />
-            <MobileButton />
+            <MobileButtom />
             {children}
             <Footer />
         </>
